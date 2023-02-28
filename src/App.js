@@ -5,10 +5,11 @@ import AreaChat from "./components/AreaChart";
 import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
 import DoughnutChart from "./components/Doughnut";
-
+import PolarChart from "./components/PolarChart";
+import RadarChart from "./components/RadarChart";
 function App() {
   return (
-    <div className="grid   md:grid-cols-2 md:gap-10 gap-4 grid-cols-1">
+    <div className="grid mx-auto   md:grid-cols-2 md:gap-10 gap-4 grid-cols-1">
       <div className="md:h-[500px]  ">
         <VerticalBar />
       </div>
@@ -26,6 +27,12 @@ function App() {
       </div>
       <div className="md:h-[500px]">
         <DoughnutChart />
+      </div>
+      <div className="md:h-[500px]">
+        <PolarChart />
+      </div>
+      <div className="md:h-[500px]">
+        <RadarChart />
       </div>
     </div>
   );
