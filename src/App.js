@@ -3,6 +3,7 @@ import VerticalBar from "./components/VerticalBar";
 import HorizontalBar from "./components/HorizontalBar";
 import AreaChat from "./components/AreaChart";
 import LineChart from "./components/LineChart";
+import PieChart from "./components/PieChart";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div className="md:h-[500px]">
         <LineChart />
+      </div>
+      <div className="md:h-[500px]">
+        <PieChart />
       </div>
     </div>
   );
