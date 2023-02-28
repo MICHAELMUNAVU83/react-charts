@@ -4,6 +4,7 @@ import HorizontalBar from "./components/HorizontalBar";
 import AreaChat from "./components/AreaChart";
 import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
+import DoughnutChart from "./components/Doughnut";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div className="md:h-[500px]">
         <PieChart />
+      </div>
+      <div className="md:h-[500px]">
+        <DoughnutChart />
       </div>
     </div>
   );

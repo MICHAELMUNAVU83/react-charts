@@ -1,8 +1,9 @@
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Pie } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
+
 
 export const data = {
   labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
@@ -38,13 +39,13 @@ export const options = {
       },
       title: {
         display: true,
-        text: "Pie Chart",
+        text: "Doughnut Chart",
       },
     },
   };
 
-const PieChart = () => {
-  return <Pie data={data} options={options} />;
+const DoughnutChart = () => {
+  return <Doughnut data={data} options={options} />;
 };
 
-export default PieChart;
+export default DoughnutChart;
