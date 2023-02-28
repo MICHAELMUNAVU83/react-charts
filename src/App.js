@@ -2,6 +2,7 @@ import "./App.css";
 import VerticalBar from "./components/VerticalBar";
 import HorizontalBar from "./components/HorizontalBar";
 import AreaChat from "./components/AreaChart";
+import LineChart from "./components/LineChart";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="md:h-[500px]">
         <AreaChat />
+      </div>
+      <div className="md:h-[500px]">
+        <LineChart />
       </div>
     </div>
   );
