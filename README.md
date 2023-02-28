@@ -43,6 +43,7 @@ Run the following to install the required npm packages.
 -`npm install --save chart.js react-chartjs-2`
 -`npm install faker`
 The faker package is used to generate random data for the charts.
+Ensure you also have tailwindcss installed. 
 
 -Copy your needed chart file (check the name) from the components folder to your project folder
 
