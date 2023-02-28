@@ -42,14 +42,17 @@ This is a repository that has Chart components including a Line Chart, Bar Chart
 ## SETUP AND INSTALLATION INSTRUCTIONS FOR THE REPOSITORY
 
 To setup git clone `https://github.com/MICHAELMUNAVU83/react-charts.git`
-cd react-charts
+  `cd react-charts`
 `npm install`
 `npm start`
 
 ## SETTING UP  A COMPONENT ONLY
 Run the following to install the required npm packages. 
+
 -`npm install --save chart.js react-chartjs-2`
 -`npm install faker`
+
+
 The faker package is used to generate random data for the charts.
 Ensure you also have tailwindcss installed. 
 
