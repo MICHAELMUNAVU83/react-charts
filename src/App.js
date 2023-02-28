@@ -1,16 +1,19 @@
-
 import "./App.css";
 import VerticalBar from "./components/VerticalBar";
 import HorizontalBar from "./components/HorizontalBar";
+import AreaChat from "./components/AreaChart";
 
 function App() {
   return (
-    <div className="grid grid-cols-2 gap-4">
-      <div className="h-[500px] ">
+    <div className="grid   md:grid-cols-2 md:gap-10 gap-4 grid-cols-1">
+      <div className="md:h-[500px]  ">
         <VerticalBar />
       </div>
-      <div className="h-[500px]">
+      <div className="md:h-[500px]">
         <HorizontalBar />
+      </div>
+      <div className="md:h-[500px]">
+        <AreaChat />
       </div>
     </div>
   );
